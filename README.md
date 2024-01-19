@@ -1,9 +1,1 @@
-#include <REGX52.H>
-##include "output.h"
-void main()
-{
-outon();
-outoff();
-
-
-}
+在主函数中直接调用outon()/outoff()来控制舵机
